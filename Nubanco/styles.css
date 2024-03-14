@@ -1,0 +1,56 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #530082;
+}
+
+.container {
+    width: 50%; /* Alterado para 80% para melhor adaptação */
+    max-width: 400px; /* Adicionado um limite de largura para evitar que o conteúdo fique muito largo em telas grandes */
+    margin: 50px auto;
+    background-color: #8A05BE;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+select {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%; /* Ajustado para ocupar toda a largura do container */
+    box-sizing: border-box; /* Adicionado para incluir o padding na largura total */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #191919;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(130, 10, 209);
+}
