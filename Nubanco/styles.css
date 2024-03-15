@@ -54,3 +54,16 @@ button {
 button:hover {
     background-color: rgb(130, 10, 209);
 }
+.mensagem {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+    color: #530082;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+}
+.token {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ffffff;
+}
